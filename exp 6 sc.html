@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Shopping Cart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #cartItems li {
+            cursor: pointer;
+            padding: 5px;
+            border: 1px solid #ccc;
+            margin: 5px 0;
+        }
+        #cartItems li.selected {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Shopping Cart</h1>
+    <input type="text" id="itemInput" placeholder="Enter item">
+    <button id="addItemBtn">Add Item</button>
+    <button id="deleteItemBtn">Delete Item</button>
+    <button id="moveUpBtn">Move Up</button>
+    <button id="moveDownBtn">Move Down</button>
+    <button id="changeColorBtn">Change Color</button>
+    <button id="changeFontBtn">Change Font</button>
+    <ul id="cartItems"></ul>
+    <script src="script3.js"></script>
+</body>
+</html>
